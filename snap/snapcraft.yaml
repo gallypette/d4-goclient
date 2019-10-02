@@ -6,8 +6,8 @@
     d4-goclient is a D4 project client (sensor) implementing the D4 encapsulation protocol.
     The client can be used on different targets and architectures to collect network capture, logs, specific network monitoring and send it back to a D4 server.
 
-  grade: devel # must be 'stable' to release into candidate/stable channels
-  confinement: devmode # use 'strict' once you have the right plugs and slots
+  grade: stable # must be 'stable' to release into candidate/stable channels
+  confinement: strict # use 'strict' once you have the right plugs and slots
 
   parts:
     my-part:
