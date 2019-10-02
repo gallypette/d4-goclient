@@ -1,0 +1,16 @@
+
+  name: d4-goclient
+  version: '0.1' # just for humans, typically '1.2+git' or '1.3.2'
+  summary: d4-goclient
+  description: |
+    d4-goclient is a D4 project client (sensor) implementing the D4 encapsulation protocol.
+    The client can be used on different targets and architectures to collect network capture, logs, specific network monitoring and send it back to a D4 server.
+
+  grade: devel # must be 'stable' to release into candidate/stable channels
+  confinement: devmode # use 'strict' once you have the right plugs and slots
+
+  parts:
+    my-part:
+      # See 'snapcraft plugins'
+      plugin: nil
+  
